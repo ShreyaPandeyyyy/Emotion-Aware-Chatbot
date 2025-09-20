@@ -1,51 +1,38 @@
-# 🎭 Emotion-Aware Chatbot  
+# Emotion-Aware Chatbot 🤖💬  
 
-[![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)]()
-[![Streamlit](https://img.shields.io/badge/streamlit-deployed-brightgreen.svg)]()
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+An **emotion-aware chatbot** built with **Python, scikit-learn, and Streamlit**.  
+It classifies text into six emotions (**joy, sadness, anger, fear, surprise, neutral**) and provides **real-time probability visualization**.  
 
-A lightweight, **text-based emotion classifier** that predicts six emotions from user input and visualizes probabilities in real time.  
-
-🔗 **Live Demo:** [Click here to try the app](https://emotion-aware-chatbot-inogm4xnwu27aqvgqmpt8a.streamlit.app/)  
+![Demo Screenshot](https://via.placeholder.com/800x400.png?text=Chatbot+Demo)  
+*(Replace with actual screenshot or GIF of your app UI)*  
 
 ---
 
-## 📑 Table of Contents
-- [Features](#-features)
-- [Preview](#-preview)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Demo](#-demo)
-- [Contributing](#-contributing)
-- [License](#-license)
+## 🚀 Features  
+- 🧠 **Emotion Classification** using machine learning  
+- 📊 **Real-time probability visualization**  
+- 🎨 **Interactive Streamlit web app**  
+- ⚡ Lightweight and fast – runs locally or on **Streamlit Cloud**  
+- 🔮 Extendable for **speech input** & advanced NLP models  
 
 ---
 
-## ✨ Features
-- Predicts **six emotions**: *joy, sadness, anger, fear, surprise, neutral*  
-- Displays **probability bar chart** for transparent, interpretable output  
-- Clean, responsive **Streamlit UI**  
-- Fast **scikit-learn pipeline** (vectorizer + classifier)  
-- Ships with ready-to-use trained models:  
-  - `models/vectorizer.pkl`  
-  - `models/classifier.pkl`  
+## 🛠️ Tech Stack  
+- **Language**: Python  
+- **Frameworks**: Streamlit, scikit-learn  
+- **Libraries**: pandas, numpy, matplotlib  
+- **Deployment**: Streamlit Cloud  
 
 ---
 
-## 🖼️ Preview
-![App Screenshot](assets/screenshot.png)  
-*(Add your own screenshot in an `assets/` folder and update this link.)*
+## 📸 Demo  
+👉 [**Try the Live App**](https://emotion-aware-chatbot-inogm4xnwu27aqvgqmpt8a.streamlit.app/)  
 
 ---
 
-## 🛠️ Tech Stack
-- **Python 3.9+**  
-- **scikit-learn** – model training & classification  
-- **Streamlit** – interactive web interface  
-- **pandas, numpy, matplotlib** – preprocessing & visualization  
+## ⚙️ Installation & Usage  
 
----
-
-## 📂 Project Structure
+Clone the repo:  
+```bash
+git clone https://github.com/ShreyaPandeyyyy/Emotion-Aware-Chatbot.git
+cd Emotion-Aware-Chatbot
